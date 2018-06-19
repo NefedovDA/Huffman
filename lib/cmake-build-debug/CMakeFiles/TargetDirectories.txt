@@ -1,0 +1,3 @@
+D:/programmes/c++/Sorokin/Haffman/lib/cmake-build-debug/CMakeFiles/huf_lib.dir
+D:/programmes/c++/Sorokin/Haffman/lib/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/programmes/c++/Sorokin/Haffman/lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir

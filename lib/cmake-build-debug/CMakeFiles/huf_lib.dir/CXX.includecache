@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/programmes/c++/Sorokin/Haffman/lib/accumulator.cpp
+cstring
+-
+headers/accumulator.h
+D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+
+D:/programmes/c++/Sorokin/Haffman/lib/codes.cpp
+cstring
+-
+headers/codes.h
+D:/programmes/c++/Sorokin/Haffman/lib/headers/codes.h
+
+D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+vector
+-
+haf_types.h
+D:/programmes/c++/Sorokin/Haffman/lib/headers/haf_types.h
+
+D:/programmes/c++/Sorokin/Haffman/lib/headers/codes.h
+utility
+-
+haf_types.h
+D:/programmes/c++/Sorokin/Haffman/lib/headers/haf_types.h
+tree.h
+D:/programmes/c++/Sorokin/Haffman/lib/headers/tree.h
+
+D:/programmes/c++/Sorokin/Haffman/lib/headers/haf_types.h
+cstdint
+-
+
+D:/programmes/c++/Sorokin/Haffman/lib/headers/tree.h
+
+D:/programmes/c++/Sorokin/Haffman/lib/tree.cpp
+headers/tree.h
+D:/programmes/c++/Sorokin/Haffman/lib/headers/tree.h
+

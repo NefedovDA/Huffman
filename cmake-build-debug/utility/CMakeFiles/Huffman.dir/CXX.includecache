@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/programmes/c++/Sorokin/Haffman/utility/main.cpp
+iostream
+-
+accumulator.h
+D:/programmes/c++/Sorokin/Haffman/utility/accumulator.h
+

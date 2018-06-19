@@ -1,0 +1,3 @@
+D:/programmes/c++/Sorokin/Haffman/utility/cmake-build-debug/CMakeFiles/Huffman.dir
+D:/programmes/c++/Sorokin/Haffman/utility/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/programmes/c++/Sorokin/Haffman/utility/cmake-build-debug/CMakeFiles/rebuild_cache.dir
