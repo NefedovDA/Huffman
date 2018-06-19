@@ -1,7 +1,10 @@
 #include <iostream>
-#include "accumulator.h"
+#include "../lib/headers/accumulator.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    accumulator my_accumulator;
+    std::vector<symbol> block(10, 'a');
+    my_accumulator.add_block(block);
+    std::cout << my_accumulator.get_count('a');
     return 0;
 }

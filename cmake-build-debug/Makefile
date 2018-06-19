@@ -119,21 +119,75 @@ huf_lib: cmake_check_build_system
 
 # fast build rule for target.
 huf_lib/fast:
-	$(MAKE) -f lib\CMakeFiles\huf_lib.dir\build.make lib/CMakeFiles/huf_lib.dir/build
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/build
 .PHONY : huf_lib/fast
 
 #=============================================================================
-# Target rules for targets named Huffman
+# Target rules for targets named huf_utility
 
 # Build rule for target.
-Huffman: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Huffman
-.PHONY : Huffman
+huf_utility: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 huf_utility
+.PHONY : huf_utility
 
 # fast build rule for target.
-Huffman/fast:
-	$(MAKE) -f utility\CMakeFiles\Huffman.dir\build.make utility/CMakeFiles/Huffman.dir/build
-.PHONY : Huffman/fast
+huf_utility/fast:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/build
+.PHONY : huf_utility/fast
+
+lib/accumulator.obj: lib/accumulator.cpp.obj
+
+.PHONY : lib/accumulator.obj
+
+# target to build an object file
+lib/accumulator.cpp.obj:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/accumulator.cpp.obj
+.PHONY : lib/accumulator.cpp.obj
+
+lib/accumulator.i: lib/accumulator.cpp.i
+
+.PHONY : lib/accumulator.i
+
+# target to preprocess a source file
+lib/accumulator.cpp.i:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/accumulator.cpp.i
+.PHONY : lib/accumulator.cpp.i
+
+lib/accumulator.s: lib/accumulator.cpp.s
+
+.PHONY : lib/accumulator.s
+
+# target to generate assembly for a file
+lib/accumulator.cpp.s:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/accumulator.cpp.s
+.PHONY : lib/accumulator.cpp.s
+
+utility/main.obj: utility/main.cpp.obj
+
+.PHONY : utility/main.obj
+
+# target to build an object file
+utility/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/main.cpp.obj
+.PHONY : utility/main.cpp.obj
+
+utility/main.i: utility/main.cpp.i
+
+.PHONY : utility/main.i
+
+# target to preprocess a source file
+utility/main.cpp.i:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/main.cpp.i
+.PHONY : utility/main.cpp.i
+
+utility/main.s: utility/main.cpp.s
+
+.PHONY : utility/main.s
+
+# target to generate assembly for a file
+utility/main.cpp.s:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/main.cpp.s
+.PHONY : utility/main.cpp.s
 
 # Help Target
 help:
@@ -141,10 +195,16 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... huf_lib
+	@echo ... huf_utility
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... huf_lib
-	@echo ... Huffman
+	@echo ... lib/accumulator.obj
+	@echo ... lib/accumulator.i
+	@echo ... lib/accumulator.s
+	@echo ... utility/main.obj
+	@echo ... utility/main.i
+	@echo ... utility/main.s
 .PHONY : help
 
 

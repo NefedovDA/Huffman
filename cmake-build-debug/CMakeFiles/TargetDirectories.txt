@@ -1,8 +1,4 @@
+D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/CMakeFiles/huf_lib.dir
+D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/CMakeFiles/huf_utility.dir
 D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/lib/CMakeFiles/huf_lib.dir
-D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/lib/CMakeFiles/edit_cache.dir
-D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/lib/CMakeFiles/rebuild_cache.dir
-D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/utility/CMakeFiles/Huffman.dir
-D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/utility/CMakeFiles/edit_cache.dir
-D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/utility/CMakeFiles/rebuild_cache.dir

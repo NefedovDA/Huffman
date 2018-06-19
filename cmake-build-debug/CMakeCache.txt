@@ -110,7 +110,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Haffman
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Project
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/ld.exe
@@ -218,22 +218,16 @@ CMAKE_STRIP:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-HAFFMAN_LIBRARY_BINARY_DIR:STATIC=D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/lib
-
-//Value Computed by CMake
-HAFFMAN_LIBRARY_SOURCE_DIR:STATIC=D:/programmes/c++/Sorokin/Haffman/lib
-
-//Value Computed by CMake
-HUFFMAN_UTILITY_BINARY_DIR:STATIC=D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/utility
-
-//Value Computed by CMake
-HUFFMAN_UTILITY_SOURCE_DIR:STATIC=D:/programmes/c++/Sorokin/Haffman/utility
-
-//Value Computed by CMake
 Haffman_BINARY_DIR:STATIC=D:/programmes/c++/Sorokin/Haffman/cmake-build-debug
 
 //Value Computed by CMake
 Haffman_SOURCE_DIR:STATIC=D:/programmes/c++/Sorokin/Haffman
+
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=D:/programmes/c++/Sorokin/Haffman/cmake-build-debug
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=D:/programmes/c++/Sorokin/Haffman
 
 //Dependencies for target
 huf_lib_LIB_DEPENDS:STATIC=
@@ -345,7 +339,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -35,8 +35,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.10.3/CMakeSystem.cmake"
-  "../lib/CMakeLists.txt"
-  "../utility/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -48,12 +46,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "utility/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "lib/CMakeFiles/huf_lib.dir/DependInfo.cmake"
-  "utility/CMakeFiles/Huffman.dir/DependInfo.cmake"
+  "CMakeFiles/huf_lib.dir/DependInfo.cmake"
+  "CMakeFiles/huf_utility.dir/DependInfo.cmake"
   )
