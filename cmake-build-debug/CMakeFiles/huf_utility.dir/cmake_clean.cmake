@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/huf_utility.dir/utility/file_reader.cpp.obj"
+  "CMakeFiles/huf_utility.dir/utility/file_writer.cpp.obj"
+  "CMakeFiles/huf_utility.dir/utility/file_compress.cpp.obj"
+  "CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.obj"
   "CMakeFiles/huf_utility.dir/utility/main.cpp.obj"
   "huf_utility.pdb"
   "huf_utility.exe"

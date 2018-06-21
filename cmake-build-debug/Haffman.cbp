@@ -125,7 +125,25 @@
 		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/accumulator.cpp">
 			<Option target="huf_lib"/>
 		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/code_word.cpp">
+			<Option target="huf_lib"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/codes.cpp">
+			<Option target="huf_lib"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/compressor.cpp">
+			<Option target="huf_lib"/>
+		</Unit>
 		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h">
+			<Option target="huf_lib"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/headers/code_word.h">
+			<Option target="huf_lib"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/headers/codes.h">
+			<Option target="huf_lib"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/headers/compressor.h">
 			<Option target="huf_lib"/>
 		</Unit>
 		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/headers/haf_types.h">

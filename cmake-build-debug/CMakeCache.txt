@@ -143,7 +143,7 @@ CMAKE_OBJCOPY:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-r
 CMAKE_OBJDUMP:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/objdump.exe
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Haffman
+CMAKE_PROJECT_NAME:STATIC=Huffman
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/ranlib.exe
@@ -222,6 +222,12 @@ Haffman_BINARY_DIR:STATIC=D:/programmes/c++/Sorokin/Haffman/cmake-build-debug
 
 //Value Computed by CMake
 Haffman_SOURCE_DIR:STATIC=D:/programmes/c++/Sorokin/Haffman
+
+//Value Computed by CMake
+Huffman_BINARY_DIR:STATIC=D:/programmes/c++/Sorokin/Haffman/cmake-build-debug
+
+//Value Computed by CMake
+Huffman_SOURCE_DIR:STATIC=D:/programmes/c++/Sorokin/Haffman
 
 //Value Computed by CMake
 Project_BINARY_DIR:STATIC=D:/programmes/c++/Sorokin/Haffman/cmake-build-debug

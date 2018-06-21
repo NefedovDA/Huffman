@@ -5,6 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/programmes/c++/Sorokin/Haffman/lib/accumulator.cpp" "D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/accumulator.cpp.obj"
+  "D:/programmes/c++/Sorokin/Haffman/lib/codes.cpp" "D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/codes.cpp.obj"
+  "D:/programmes/c++/Sorokin/Haffman/lib/compress.cpp" "D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/compress.cpp.obj"
+  "D:/programmes/c++/Sorokin/Haffman/lib/decompress.cpp" "D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/decompress.cpp.obj"
+  "D:/programmes/c++/Sorokin/Haffman/lib/tree.cpp" "D:/programmes/c++/Sorokin/Haffman/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/tree.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

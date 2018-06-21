@@ -162,6 +162,222 @@ lib/accumulator.cpp.s:
 	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/accumulator.cpp.s
 .PHONY : lib/accumulator.cpp.s
 
+lib/codes.obj: lib/codes.cpp.obj
+
+.PHONY : lib/codes.obj
+
+# target to build an object file
+lib/codes.cpp.obj:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/codes.cpp.obj
+.PHONY : lib/codes.cpp.obj
+
+lib/codes.i: lib/codes.cpp.i
+
+.PHONY : lib/codes.i
+
+# target to preprocess a source file
+lib/codes.cpp.i:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/codes.cpp.i
+.PHONY : lib/codes.cpp.i
+
+lib/codes.s: lib/codes.cpp.s
+
+.PHONY : lib/codes.s
+
+# target to generate assembly for a file
+lib/codes.cpp.s:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/codes.cpp.s
+.PHONY : lib/codes.cpp.s
+
+lib/compress.obj: lib/compress.cpp.obj
+
+.PHONY : lib/compress.obj
+
+# target to build an object file
+lib/compress.cpp.obj:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/compress.cpp.obj
+.PHONY : lib/compress.cpp.obj
+
+lib/compress.i: lib/compress.cpp.i
+
+.PHONY : lib/compress.i
+
+# target to preprocess a source file
+lib/compress.cpp.i:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/compress.cpp.i
+.PHONY : lib/compress.cpp.i
+
+lib/compress.s: lib/compress.cpp.s
+
+.PHONY : lib/compress.s
+
+# target to generate assembly for a file
+lib/compress.cpp.s:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/compress.cpp.s
+.PHONY : lib/compress.cpp.s
+
+lib/decompress.obj: lib/decompress.cpp.obj
+
+.PHONY : lib/decompress.obj
+
+# target to build an object file
+lib/decompress.cpp.obj:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/decompress.cpp.obj
+.PHONY : lib/decompress.cpp.obj
+
+lib/decompress.i: lib/decompress.cpp.i
+
+.PHONY : lib/decompress.i
+
+# target to preprocess a source file
+lib/decompress.cpp.i:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/decompress.cpp.i
+.PHONY : lib/decompress.cpp.i
+
+lib/decompress.s: lib/decompress.cpp.s
+
+.PHONY : lib/decompress.s
+
+# target to generate assembly for a file
+lib/decompress.cpp.s:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/decompress.cpp.s
+.PHONY : lib/decompress.cpp.s
+
+lib/tree.obj: lib/tree.cpp.obj
+
+.PHONY : lib/tree.obj
+
+# target to build an object file
+lib/tree.cpp.obj:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/tree.cpp.obj
+.PHONY : lib/tree.cpp.obj
+
+lib/tree.i: lib/tree.cpp.i
+
+.PHONY : lib/tree.i
+
+# target to preprocess a source file
+lib/tree.cpp.i:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/tree.cpp.i
+.PHONY : lib/tree.cpp.i
+
+lib/tree.s: lib/tree.cpp.s
+
+.PHONY : lib/tree.s
+
+# target to generate assembly for a file
+lib/tree.cpp.s:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/tree.cpp.s
+.PHONY : lib/tree.cpp.s
+
+utility/file_compress.obj: utility/file_compress.cpp.obj
+
+.PHONY : utility/file_compress.obj
+
+# target to build an object file
+utility/file_compress.cpp.obj:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_compress.cpp.obj
+.PHONY : utility/file_compress.cpp.obj
+
+utility/file_compress.i: utility/file_compress.cpp.i
+
+.PHONY : utility/file_compress.i
+
+# target to preprocess a source file
+utility/file_compress.cpp.i:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_compress.cpp.i
+.PHONY : utility/file_compress.cpp.i
+
+utility/file_compress.s: utility/file_compress.cpp.s
+
+.PHONY : utility/file_compress.s
+
+# target to generate assembly for a file
+utility/file_compress.cpp.s:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_compress.cpp.s
+.PHONY : utility/file_compress.cpp.s
+
+utility/file_decompress.obj: utility/file_decompress.cpp.obj
+
+.PHONY : utility/file_decompress.obj
+
+# target to build an object file
+utility/file_decompress.cpp.obj:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.obj
+.PHONY : utility/file_decompress.cpp.obj
+
+utility/file_decompress.i: utility/file_decompress.cpp.i
+
+.PHONY : utility/file_decompress.i
+
+# target to preprocess a source file
+utility/file_decompress.cpp.i:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.i
+.PHONY : utility/file_decompress.cpp.i
+
+utility/file_decompress.s: utility/file_decompress.cpp.s
+
+.PHONY : utility/file_decompress.s
+
+# target to generate assembly for a file
+utility/file_decompress.cpp.s:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.s
+.PHONY : utility/file_decompress.cpp.s
+
+utility/file_reader.obj: utility/file_reader.cpp.obj
+
+.PHONY : utility/file_reader.obj
+
+# target to build an object file
+utility/file_reader.cpp.obj:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_reader.cpp.obj
+.PHONY : utility/file_reader.cpp.obj
+
+utility/file_reader.i: utility/file_reader.cpp.i
+
+.PHONY : utility/file_reader.i
+
+# target to preprocess a source file
+utility/file_reader.cpp.i:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_reader.cpp.i
+.PHONY : utility/file_reader.cpp.i
+
+utility/file_reader.s: utility/file_reader.cpp.s
+
+.PHONY : utility/file_reader.s
+
+# target to generate assembly for a file
+utility/file_reader.cpp.s:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_reader.cpp.s
+.PHONY : utility/file_reader.cpp.s
+
+utility/file_writer.obj: utility/file_writer.cpp.obj
+
+.PHONY : utility/file_writer.obj
+
+# target to build an object file
+utility/file_writer.cpp.obj:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_writer.cpp.obj
+.PHONY : utility/file_writer.cpp.obj
+
+utility/file_writer.i: utility/file_writer.cpp.i
+
+.PHONY : utility/file_writer.i
+
+# target to preprocess a source file
+utility/file_writer.cpp.i:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_writer.cpp.i
+.PHONY : utility/file_writer.cpp.i
+
+utility/file_writer.s: utility/file_writer.cpp.s
+
+.PHONY : utility/file_writer.s
+
+# target to generate assembly for a file
+utility/file_writer.cpp.s:
+	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_writer.cpp.s
+.PHONY : utility/file_writer.cpp.s
+
 utility/main.obj: utility/main.cpp.obj
 
 .PHONY : utility/main.obj
@@ -202,6 +418,30 @@ help:
 	@echo ... lib/accumulator.obj
 	@echo ... lib/accumulator.i
 	@echo ... lib/accumulator.s
+	@echo ... lib/codes.obj
+	@echo ... lib/codes.i
+	@echo ... lib/codes.s
+	@echo ... lib/compress.obj
+	@echo ... lib/compress.i
+	@echo ... lib/compress.s
+	@echo ... lib/decompress.obj
+	@echo ... lib/decompress.i
+	@echo ... lib/decompress.s
+	@echo ... lib/tree.obj
+	@echo ... lib/tree.i
+	@echo ... lib/tree.s
+	@echo ... utility/file_compress.obj
+	@echo ... utility/file_compress.i
+	@echo ... utility/file_compress.s
+	@echo ... utility/file_decompress.obj
+	@echo ... utility/file_decompress.i
+	@echo ... utility/file_decompress.s
+	@echo ... utility/file_reader.obj
+	@echo ... utility/file_reader.i
+	@echo ... utility/file_reader.s
+	@echo ... utility/file_writer.obj
+	@echo ... utility/file_writer.i
+	@echo ... utility/file_writer.s
 	@echo ... utility/main.obj
 	@echo ... utility/main.i
 	@echo ... utility/main.s

@@ -2,24 +2,25 @@
 // Created by nefed on 17.06.2018.
 //
 
-#ifndef HAFFMAN_LIBRARY_CODES_H
-#define HAFFMAN_LIBRARY_CODES_H
+#ifndef HUFFMAN_LIBRARY_CODES_H
+#define HUFFMAN_LIBRARY_CODES_H
 
-#include <utility>
-#include "haf_types.h"
+#include "huf_types.h"
 #include "tree.h"
 
 struct codes {
     codes() = delete;
 
-    explicit codes(tree data);
+    explicit codes(tree const &t);
 
-    std::pair<code, code_len> get(symbol symb);
+    std::vector<bit_t> get(symbol s)const;
+
+    size_t get_length(symbol s) const;
 
 private:
-    code code_table[MAX_SYMBOLS];
-    code_len length_table[MAX_SYMBOLS];
+    std::vector<bit_t> code_words_table[MAX_SYMBOL + 1];
+
+    void dfs(tree::node *node, std::vector<bit_t> &cur_code);
 };
 
-
-#endif //HAFFMAN_LIBRARY_CODES_H
+#endif //HUFFMAN_LIBRARY_CODES_H
