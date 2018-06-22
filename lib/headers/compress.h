@@ -15,7 +15,7 @@ struct compress {
 
     explicit compress(accumulator const &a);
 
-    std::vector<bit_t> operator()(std::vector<symbol> symbols_block);
+    std::vector<bit_code> operator()(std::vector<symbol> symbols_block);
 
     codes get();
 

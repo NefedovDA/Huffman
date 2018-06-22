@@ -6,75 +6,81 @@
 
 #IncludeRegexTransform: 
 
-D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 vector
 -
 huf_types.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/huf_types.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h
 
-D:/programmes/c++/Sorokin/Haffman/lib/headers/codes.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/bit_code.h
 huf_types.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/huf_types.h
-tree.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/tree.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h
 
-D:/programmes/c++/Sorokin/Haffman/lib/headers/compress.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/codes.h
+huf_types.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h
+tree.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/tree.h
+bit_code.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/bit_code.h
+
+D:/programmes/c++/Sorokin/Huffman/lib/headers/compress.h
 accumulator.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 codes.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/codes.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/codes.h
 
-D:/programmes/c++/Sorokin/Haffman/lib/headers/decompress.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/decompress.h
 accumulator.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 tree.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/tree.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/tree.h
 
-D:/programmes/c++/Sorokin/Haffman/lib/headers/huf_types.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h
 cstdint
 -
 
-D:/programmes/c++/Sorokin/Haffman/lib/headers/tree.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/tree.h
 accumulator.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 
-D:/programmes/c++/Sorokin/Haffman/utility/file_compress.cpp
+D:/programmes/c++/Sorokin/Huffman/utility/file_compress.cpp
 header/file_compress.h
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_compress.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_compress.h
 header/file_reader.h
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_reader.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_reader.h
 header/file_writer.h
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_writer.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_writer.h
 ../lib/headers/accumulator.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 ../lib/headers/compress.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/compress.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/compress.h
 
-D:/programmes/c++/Sorokin/Haffman/utility/file_decompress.cpp
+D:/programmes/c++/Sorokin/Huffman/utility/file_decompress.cpp
 header/file_decompress.h
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_decompress.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_decompress.h
 ../lib/headers/accumulator.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 header/file_writer.h
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_writer.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_writer.h
 header/file_reader.h
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_reader.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_reader.h
 ../lib/headers/decompress.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/decompress.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/decompress.h
 
-D:/programmes/c++/Sorokin/Haffman/utility/file_reader.cpp
+D:/programmes/c++/Sorokin/Huffman/utility/file_reader.cpp
 header/file_reader.h
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_reader.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_reader.h
 
-D:/programmes/c++/Sorokin/Haffman/utility/file_writer.cpp
+D:/programmes/c++/Sorokin/Huffman/utility/file_writer.cpp
 header/file_writer.h
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_writer.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_writer.h
 
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_compress.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_compress.h
 
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_decompress.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_decompress.h
 
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_reader.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_reader.h
 vector
 -
 cstdio
@@ -82,13 +88,13 @@ cstdio
 string
 -
 ../../lib/headers/huf_types.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/huf_types.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h
 ../../lib/headers/accumulator.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 stdexcept
 -
 
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_writer.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_writer.h
 cstdio
 -
 cstdint
@@ -98,13 +104,15 @@ string
 vector
 -
 ../../lib/headers/huf_types.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/huf_types.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h
 ../../lib/headers/accumulator.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
+../../lib/headers/bit_code.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/bit_code.h
 stdexcept
 -
 
-D:/programmes/c++/Sorokin/Haffman/utility/main.cpp
+D:/programmes/c++/Sorokin/Huffman/utility/main.cpp
 iostream
 -
 vector
@@ -112,11 +120,11 @@ vector
 cstring
 -
 header/file_compress.h
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_compress.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_compress.h
 header/file_decompress.h
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_decompress.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_decompress.h
 header/file_writer.h
-D:/programmes/c++/Sorokin/Haffman/utility/header/file_writer.h
+D:/programmes/c++/Sorokin/Huffman/utility/header/file_writer.h
 ctime
 -
 random

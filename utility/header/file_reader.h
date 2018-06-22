@@ -6,11 +6,8 @@
 #define HUFFMAN_FILE_READER_H
 
 #include <vector>
-#include <cstdio>
 #include <string>
-#include "../../lib/headers/huf_types.h"
-#include "../../lib/headers/accumulator.h"
-#include <stdexcept>
+#include "lib/headers/accumulator.h"
 
 struct file_reader {
 

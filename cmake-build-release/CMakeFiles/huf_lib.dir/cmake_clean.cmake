@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/huf_lib.dir/lib/codes.cpp.obj"
   "CMakeFiles/huf_lib.dir/lib/tree.cpp.obj"
   "CMakeFiles/huf_lib.dir/lib/decompress.cpp.obj"
+  "CMakeFiles/huf_lib.dir/lib/bit_code.cpp.obj"
   "libhuf_lib.pdb"
   "libhuf_lib.a"
 )

@@ -2,9 +2,10 @@
 // Created by nefed on 20.06.2018.
 //
 
+#include <stdexcept>
 #include "header/file_reader.h"
 
-#define good_size 1024
+#define good_size 512
 
 file_reader::file_reader(const char *file_name) :
         my_file(fopen(file_name, "rb")),
@@ -21,31 +22,35 @@ void file_reader::check() {
 std::vector<symbol> file_reader::read_symbol_block() {
     std::vector<symbol> buf(good_size);
     size_t count = fread(&buf[0], sizeof(symbol), good_size, my_file);
-    if ((count != good_size && !feof(my_file)) || ferror(my_file)) {
-        throw std::runtime_error("problem with file '"
-                                 + file_name + "' : "
-                                 + "error of reading file");
+    if (count != good_size) {
+        if (feof(my_file)) {
+            buf.resize(count);
+        } else {
+            throw std::runtime_error("problem with file '"
+                                     + file_name + "' : "
+                                     + "error of reading file");
+        }
     }
-    buf.resize(count);
+
     return buf;
 }
 
 std::vector<bit_t> file_reader::read_bit_block() {
-    uint8_t buf[good_size];
-    size_t count = fread(buf, 1, good_size, my_file);
+    uint64_t buf[good_size];
+    size_t count = fread(buf, sizeof(uint64_t), good_size, my_file);
     if ((count != good_size && !feof(my_file)) || ferror(my_file)) {
         throw std::runtime_error("problem with file '"
                                  + file_name + "' : "
                                  + "error of reading file");
     }
-    std::vector<bit_t> ret;
+    std::vector<bit_t> ret(count * 64);
+    size_t k = 0;
     for (size_t i = 0; i < count; ++i) {
-        for (size_t j = 128; j > 0; j >>= 1) {
+        for (uint64_t j = 9223372036854775808ULL; j > 0; j >>= 1) {
             if ((buf[i] & j) != 0) {
-                ret.push_back(1);
-            } else {
-                ret.push_back(0);
+                ret[k] = 1;
             }
+            ++k;
         }
     }
     return ret;

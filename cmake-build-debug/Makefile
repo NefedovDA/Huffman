@@ -47,24 +47,13 @@ RM = "C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\programmes\c++\Sorokin\Haffman
+CMAKE_SOURCE_DIR = D:\programmes\c++\Sorokin\Huffman
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\programmes\c++\Sorokin\Haffman\cmake-build-debug
+CMAKE_BINARY_DIR = D:\programmes\c++\Sorokin\Huffman\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -77,11 +66,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programmes\c++\Sorokin\Haffman\cmake-build-debug\CMakeFiles D:\programmes\c++\Sorokin\Haffman\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programmes\c++\Sorokin\Huffman\cmake-build-debug\CMakeFiles D:\programmes\c++\Sorokin\Huffman\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\programmes\c++\Sorokin\Haffman\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\programmes\c++\Sorokin\Huffman\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -135,6 +135,73 @@ huf_utility/fast:
 	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/build
 .PHONY : huf_utility/fast
 
+#=============================================================================
+# Target rules for targets named huf_test
+
+# Build rule for target.
+huf_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 huf_test
+.PHONY : huf_test
+
+# fast build rule for target.
+huf_test/fast:
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/build
+.PHONY : huf_test/fast
+
+gtest/gtest-all.obj: gtest/gtest-all.cc.obj
+
+.PHONY : gtest/gtest-all.obj
+
+# target to build an object file
+gtest/gtest-all.cc.obj:
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/gtest/gtest-all.cc.obj
+.PHONY : gtest/gtest-all.cc.obj
+
+gtest/gtest-all.i: gtest/gtest-all.cc.i
+
+.PHONY : gtest/gtest-all.i
+
+# target to preprocess a source file
+gtest/gtest-all.cc.i:
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/gtest/gtest-all.cc.i
+.PHONY : gtest/gtest-all.cc.i
+
+gtest/gtest-all.s: gtest/gtest-all.cc.s
+
+.PHONY : gtest/gtest-all.s
+
+# target to generate assembly for a file
+gtest/gtest-all.cc.s:
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/gtest/gtest-all.cc.s
+.PHONY : gtest/gtest-all.cc.s
+
+gtest/gtest_main.obj: gtest/gtest_main.cc.obj
+
+.PHONY : gtest/gtest_main.obj
+
+# target to build an object file
+gtest/gtest_main.cc.obj:
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/gtest/gtest_main.cc.obj
+.PHONY : gtest/gtest_main.cc.obj
+
+gtest/gtest_main.i: gtest/gtest_main.cc.i
+
+.PHONY : gtest/gtest_main.i
+
+# target to preprocess a source file
+gtest/gtest_main.cc.i:
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/gtest/gtest_main.cc.i
+.PHONY : gtest/gtest_main.cc.i
+
+gtest/gtest_main.s: gtest/gtest_main.cc.s
+
+.PHONY : gtest/gtest_main.s
+
+# target to generate assembly for a file
+gtest/gtest_main.cc.s:
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/gtest/gtest_main.cc.s
+.PHONY : gtest/gtest_main.cc.s
+
 lib/accumulator.obj: lib/accumulator.cpp.obj
 
 .PHONY : lib/accumulator.obj
@@ -161,6 +228,33 @@ lib/accumulator.s: lib/accumulator.cpp.s
 lib/accumulator.cpp.s:
 	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/accumulator.cpp.s
 .PHONY : lib/accumulator.cpp.s
+
+lib/bit_code.obj: lib/bit_code.cpp.obj
+
+.PHONY : lib/bit_code.obj
+
+# target to build an object file
+lib/bit_code.cpp.obj:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/bit_code.cpp.obj
+.PHONY : lib/bit_code.cpp.obj
+
+lib/bit_code.i: lib/bit_code.cpp.i
+
+.PHONY : lib/bit_code.i
+
+# target to preprocess a source file
+lib/bit_code.cpp.i:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/bit_code.cpp.i
+.PHONY : lib/bit_code.cpp.i
+
+lib/bit_code.s: lib/bit_code.cpp.s
+
+.PHONY : lib/bit_code.s
+
+# target to generate assembly for a file
+lib/bit_code.cpp.s:
+	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/bit_code.cpp.s
+.PHONY : lib/bit_code.cpp.s
 
 lib/codes.obj: lib/codes.cpp.obj
 
@@ -270,6 +364,33 @@ lib/tree.cpp.s:
 	$(MAKE) -f CMakeFiles\huf_lib.dir\build.make CMakeFiles/huf_lib.dir/lib/tree.cpp.s
 .PHONY : lib/tree.cpp.s
 
+test/tests.obj: test/tests.cpp.obj
+
+.PHONY : test/tests.obj
+
+# target to build an object file
+test/tests.cpp.obj:
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/test/tests.cpp.obj
+.PHONY : test/tests.cpp.obj
+
+test/tests.i: test/tests.cpp.i
+
+.PHONY : test/tests.i
+
+# target to preprocess a source file
+test/tests.cpp.i:
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/test/tests.cpp.i
+.PHONY : test/tests.cpp.i
+
+test/tests.s: test/tests.cpp.s
+
+.PHONY : test/tests.s
+
+# target to generate assembly for a file
+test/tests.cpp.s:
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/test/tests.cpp.s
+.PHONY : test/tests.cpp.s
+
 utility/file_compress.obj: utility/file_compress.cpp.obj
 
 .PHONY : utility/file_compress.obj
@@ -277,6 +398,7 @@ utility/file_compress.obj: utility/file_compress.cpp.obj
 # target to build an object file
 utility/file_compress.cpp.obj:
 	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_compress.cpp.obj
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/utility/file_compress.cpp.obj
 .PHONY : utility/file_compress.cpp.obj
 
 utility/file_compress.i: utility/file_compress.cpp.i
@@ -286,6 +408,7 @@ utility/file_compress.i: utility/file_compress.cpp.i
 # target to preprocess a source file
 utility/file_compress.cpp.i:
 	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_compress.cpp.i
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/utility/file_compress.cpp.i
 .PHONY : utility/file_compress.cpp.i
 
 utility/file_compress.s: utility/file_compress.cpp.s
@@ -295,6 +418,7 @@ utility/file_compress.s: utility/file_compress.cpp.s
 # target to generate assembly for a file
 utility/file_compress.cpp.s:
 	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_compress.cpp.s
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/utility/file_compress.cpp.s
 .PHONY : utility/file_compress.cpp.s
 
 utility/file_decompress.obj: utility/file_decompress.cpp.obj
@@ -304,6 +428,7 @@ utility/file_decompress.obj: utility/file_decompress.cpp.obj
 # target to build an object file
 utility/file_decompress.cpp.obj:
 	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.obj
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/utility/file_decompress.cpp.obj
 .PHONY : utility/file_decompress.cpp.obj
 
 utility/file_decompress.i: utility/file_decompress.cpp.i
@@ -313,6 +438,7 @@ utility/file_decompress.i: utility/file_decompress.cpp.i
 # target to preprocess a source file
 utility/file_decompress.cpp.i:
 	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.i
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/utility/file_decompress.cpp.i
 .PHONY : utility/file_decompress.cpp.i
 
 utility/file_decompress.s: utility/file_decompress.cpp.s
@@ -322,6 +448,7 @@ utility/file_decompress.s: utility/file_decompress.cpp.s
 # target to generate assembly for a file
 utility/file_decompress.cpp.s:
 	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.s
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/utility/file_decompress.cpp.s
 .PHONY : utility/file_decompress.cpp.s
 
 utility/file_reader.obj: utility/file_reader.cpp.obj
@@ -331,6 +458,7 @@ utility/file_reader.obj: utility/file_reader.cpp.obj
 # target to build an object file
 utility/file_reader.cpp.obj:
 	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_reader.cpp.obj
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/utility/file_reader.cpp.obj
 .PHONY : utility/file_reader.cpp.obj
 
 utility/file_reader.i: utility/file_reader.cpp.i
@@ -340,6 +468,7 @@ utility/file_reader.i: utility/file_reader.cpp.i
 # target to preprocess a source file
 utility/file_reader.cpp.i:
 	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_reader.cpp.i
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/utility/file_reader.cpp.i
 .PHONY : utility/file_reader.cpp.i
 
 utility/file_reader.s: utility/file_reader.cpp.s
@@ -349,6 +478,7 @@ utility/file_reader.s: utility/file_reader.cpp.s
 # target to generate assembly for a file
 utility/file_reader.cpp.s:
 	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_reader.cpp.s
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/utility/file_reader.cpp.s
 .PHONY : utility/file_reader.cpp.s
 
 utility/file_writer.obj: utility/file_writer.cpp.obj
@@ -358,6 +488,7 @@ utility/file_writer.obj: utility/file_writer.cpp.obj
 # target to build an object file
 utility/file_writer.cpp.obj:
 	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_writer.cpp.obj
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/utility/file_writer.cpp.obj
 .PHONY : utility/file_writer.cpp.obj
 
 utility/file_writer.i: utility/file_writer.cpp.i
@@ -367,6 +498,7 @@ utility/file_writer.i: utility/file_writer.cpp.i
 # target to preprocess a source file
 utility/file_writer.cpp.i:
 	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_writer.cpp.i
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/utility/file_writer.cpp.i
 .PHONY : utility/file_writer.cpp.i
 
 utility/file_writer.s: utility/file_writer.cpp.s
@@ -376,6 +508,7 @@ utility/file_writer.s: utility/file_writer.cpp.s
 # target to generate assembly for a file
 utility/file_writer.cpp.s:
 	$(MAKE) -f CMakeFiles\huf_utility.dir\build.make CMakeFiles/huf_utility.dir/utility/file_writer.cpp.s
+	$(MAKE) -f CMakeFiles\huf_test.dir\build.make CMakeFiles/huf_test.dir/utility/file_writer.cpp.s
 .PHONY : utility/file_writer.cpp.s
 
 utility/main.obj: utility/main.cpp.obj
@@ -413,11 +546,21 @@ help:
 	@echo ... depend
 	@echo ... huf_lib
 	@echo ... huf_utility
-	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... huf_test
+	@echo ... edit_cache
+	@echo ... gtest/gtest-all.obj
+	@echo ... gtest/gtest-all.i
+	@echo ... gtest/gtest-all.s
+	@echo ... gtest/gtest_main.obj
+	@echo ... gtest/gtest_main.i
+	@echo ... gtest/gtest_main.s
 	@echo ... lib/accumulator.obj
 	@echo ... lib/accumulator.i
 	@echo ... lib/accumulator.s
+	@echo ... lib/bit_code.obj
+	@echo ... lib/bit_code.i
+	@echo ... lib/bit_code.s
 	@echo ... lib/codes.obj
 	@echo ... lib/codes.i
 	@echo ... lib/codes.s
@@ -430,6 +573,9 @@ help:
 	@echo ... lib/tree.obj
 	@echo ... lib/tree.i
 	@echo ... lib/tree.s
+	@echo ... test/tests.obj
+	@echo ... test/tests.i
+	@echo ... test/tests.s
 	@echo ... utility/file_compress.obj
 	@echo ... utility/file_compress.i
 	@echo ... utility/file_compress.s

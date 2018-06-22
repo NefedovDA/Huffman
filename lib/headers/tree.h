@@ -11,6 +11,8 @@
 struct tree {
     explicit tree(accumulator const &a);
 
+    ~tree();
+
 private:
     struct node {
         bool is_leaf;
@@ -24,6 +26,8 @@ private:
     } *head;
 
     friend bool node_comp(const node *a, const node *b);
+
+    void dfs_del(node *n);
 
     friend struct codes;
     friend struct decompress;

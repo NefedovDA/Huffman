@@ -9,6 +9,8 @@
 
 typedef uint8_t symbol;
 typedef uint8_t bit_t;
+typedef uint64_t code_t;
+typedef size_t code_len;
 
 const size_t MAX_SYMBOL = 255;
 

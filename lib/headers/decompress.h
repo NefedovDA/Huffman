@@ -5,7 +5,6 @@
 #ifndef HUFFMAN_DECOMPRESS_H
 #define HUFFMAN_DECOMPRESS_H
 
-#include "accumulator.h"
 #include "tree.h"
 
 // позволяет интерпретировать битовый поток как код Хаффмана на основе таблицы встречаемости (задаётся 1 раз)
@@ -19,11 +18,12 @@ struct decompress {
     // позволяет проверить совпал ли конец символьного потока с битовым
     bool empty();
 
+    bool is_end();
+
 private:
     tree huf_tree;
     tree::node *cur;
     uint64_t size;
 };
-
 
 #endif //HUFFMAN_DECOMPRESS_H

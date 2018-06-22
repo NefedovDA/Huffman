@@ -8,22 +8,23 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/programmes/c++/Sorokin/Haffman/cmake-build-release"/>
+				<Option working_dir="D:/programmes/c++/Sorokin/Huffman/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="huf_lib">
-				<Option output="D:/programmes/c++/Sorokin/Haffman/cmake-build-release/libhuf_lib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/programmes/c++/Sorokin/Haffman/cmake-build-release"/>
+				<Option output="D:/programmes/c++/Sorokin/Huffman/cmake-build-release/libhuf_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/programmes/c++/Sorokin/Huffman/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/programmes/c++/Sorokin/Huffman"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -32,19 +33,20 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 huf_lib"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 huf_lib"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="huf_lib/fast">
-				<Option output="D:/programmes/c++/Sorokin/Haffman/cmake-build-release/libhuf_lib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/programmes/c++/Sorokin/Haffman/cmake-build-release"/>
+				<Option output="D:/programmes/c++/Sorokin/Huffman/cmake-build-release/libhuf_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/programmes/c++/Sorokin/Huffman/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/programmes/c++/Sorokin/Huffman"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -53,19 +55,20 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 huf_lib/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 huf_lib/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="huf_utility">
-				<Option output="D:/programmes/c++/Sorokin/Haffman/cmake-build-release/huf_utility.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/programmes/c++/Sorokin/Haffman/cmake-build-release"/>
+				<Option output="D:/programmes/c++/Sorokin/Huffman/cmake-build-release/huf_utility.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/programmes/c++/Sorokin/Huffman/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/programmes/c++/Sorokin/Huffman"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -74,19 +77,20 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 huf_utility"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 huf_utility"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="huf_utility/fast">
-				<Option output="D:/programmes/c++/Sorokin/Haffman/cmake-build-release/huf_utility.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/programmes/c++/Sorokin/Haffman/cmake-build-release"/>
+				<Option output="D:/programmes/c++/Sorokin/Huffman/cmake-build-release/huf_utility.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/programmes/c++/Sorokin/Huffman/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/programmes/c++/Sorokin/Huffman"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -95,94 +99,164 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 huf_utility/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/programmes/c++/Sorokin/Haffman/cmake-build-release"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 huf_utility/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/programmes/c++/Sorokin/Haffman/cmake-build-release"/>
+				<Option working_dir="D:/programmes/c++/Sorokin/Huffman/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Haffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huf_test">
+				<Option output="D:/programmes/c++/Sorokin/Huffman/cmake-build-release/huf_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/programmes/c++/Sorokin/Huffman/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/programmes/c++/Sorokin/Huffman"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 huf_test"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huf_test/fast">
+				<Option output="D:/programmes/c++/Sorokin/Huffman/cmake-build-release/huf_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/programmes/c++/Sorokin/Huffman/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/programmes/c++/Sorokin/Huffman"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 huf_test/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/programmes/c++/Sorokin/Huffman/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/programmes/c++/Sorokin/Huffman/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/accumulator.cpp">
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/gtest/gtest-all.cc">
+			<Option target="huf_test"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/gtest/gtest.h">
+			<Option target="huf_test"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/gtest/gtest_main.cc">
+			<Option target="huf_test"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/lib/accumulator.cpp">
 			<Option target="huf_lib"/>
 		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/codes.cpp">
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/lib/bit_code.cpp">
 			<Option target="huf_lib"/>
 		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/compress.cpp">
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/lib/codes.cpp">
 			<Option target="huf_lib"/>
 		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/decompress.cpp">
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/lib/compress.cpp">
 			<Option target="huf_lib"/>
 		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h">
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/lib/decompress.cpp">
 			<Option target="huf_lib"/>
 		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/headers/codes.h">
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h">
 			<Option target="huf_lib"/>
 		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/headers/compress.h">
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/lib/headers/bit_code.h">
 			<Option target="huf_lib"/>
 		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/headers/decompress.h">
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/lib/headers/codes.h">
 			<Option target="huf_lib"/>
 		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/headers/huf_types.h">
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/lib/headers/compress.h">
 			<Option target="huf_lib"/>
 		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/headers/tree.h">
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/lib/headers/decompress.h">
 			<Option target="huf_lib"/>
 		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/lib/tree.cpp">
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h">
 			<Option target="huf_lib"/>
 		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/utility/file_compress.cpp">
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/lib/headers/tree.h">
+			<Option target="huf_lib"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/lib/tree.cpp">
+			<Option target="huf_lib"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/test/tests.cpp">
+			<Option target="huf_test"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/utility/file_compress.cpp">
+			<Option target="huf_utility"/>
+			<Option target="huf_test"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/utility/file_decompress.cpp">
+			<Option target="huf_utility"/>
+			<Option target="huf_test"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/utility/file_reader.cpp">
+			<Option target="huf_utility"/>
+			<Option target="huf_test"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/utility/file_writer.cpp">
+			<Option target="huf_utility"/>
+			<Option target="huf_test"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/utility/header/file_compress.h">
+			<Option target="huf_utility"/>
+			<Option target="huf_test"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/utility/header/file_decompress.h">
+			<Option target="huf_utility"/>
+			<Option target="huf_test"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/utility/header/file_reader.h">
+			<Option target="huf_utility"/>
+			<Option target="huf_test"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/utility/header/file_writer.h">
+			<Option target="huf_utility"/>
+			<Option target="huf_test"/>
+		</Unit>
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/utility/main.cpp">
 			<Option target="huf_utility"/>
 		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/utility/file_decompress.cpp">
-			<Option target="huf_utility"/>
-		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/utility/file_reader.cpp">
-			<Option target="huf_utility"/>
-		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/utility/file_writer.cpp">
-			<Option target="huf_utility"/>
-		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/utility/header/file_compress.h">
-			<Option target="huf_utility"/>
-		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/utility/header/file_decompress.h">
-			<Option target="huf_utility"/>
-		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/utility/header/file_reader.h">
-			<Option target="huf_utility"/>
-		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/utility/header/file_writer.h">
-			<Option target="huf_utility"/>
-		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/utility/main.cpp">
-			<Option target="huf_utility"/>
-		</Unit>
-		<Unit filename="D:/programmes/c++/Sorokin/Haffman/CMakeLists.txt">
+		<Unit filename="D:/programmes/c++/Sorokin/Huffman/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

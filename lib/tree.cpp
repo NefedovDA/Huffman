@@ -3,7 +3,6 @@
 //
 
 #include <algorithm>
-#include <stdexcept>
 #include "headers/tree.h"
 
 bool node_comp(const tree::node *a, const tree::node *b) {
@@ -47,3 +46,15 @@ tree::node::node(tree::node *left, tree::node *right) :
         right(right),
         my_symbol(0),
         count(left->count + right->count) {}
+
+void tree::dfs_del(tree::node *n) {
+    if (!n->is_leaf) {
+        dfs_del(n->left);
+        dfs_del(n->right);
+    }
+    delete n;
+}
+
+tree::~tree() {
+    dfs_del(head);
+}

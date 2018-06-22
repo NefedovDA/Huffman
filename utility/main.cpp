@@ -4,8 +4,10 @@
 #include "header/file_compress.h"
 #include "header/file_decompress.h"
 #include "header/file_writer.h"
+#include "header/file_reader.h"
 #include <ctime>
 #include <random>
+#include <cassert>
 
 //uint8_t buf[83886080];
 int main(int argc, char **argv) {
@@ -73,11 +75,24 @@ int main(int argc, char **argv) {
     FILE *out = fopen("../test_files/rand/rand.txt", "wb");
 
     fwrite(buf, 1, 83886080, out);*/
+
+    /*file_reader original("../test_files/rand/rand.txt");
+    file_reader copy("../test_files/rand/randret.txt");
+    while (!copy.eof()) {
+        auto vo = original.read_symbol_block();
+        auto vc = copy.read_symbol_block();
+        for (size_t i = 0; i < vo.size(); ++i) {
+            assert(vo[i] == vc[i]);
+        }
+    }*/
     return 0;
 }
 
 // "-c" "../test_files/1/1.txt" "../test_files/1/1.huf"
 // "-d" "../test_files/1/1.huf" "../test_files/1/1ret.txt"
+
+// "-c" "../test_files/2/2.txt" "../test_files/2/2.huf"
+// "-d" "../test_files/2/2.huf" "../test_files/2/2ret.txt"
 
 // "-c" "../test_files/3/3.JPG" "../test_files/3/3.huf"
 // "-d" "../test_files/3/3.huf" "../test_files/3/3ret.JPG"
@@ -86,4 +101,4 @@ int main(int argc, char **argv) {
 // "-d" "../test_files/w_and_p/w_and_p.huf" "../test_files/w_and_p/w_and_pret.txt"
 
 // "-c" "../test_files/rand/rand.txt" "../test_files/rand/rand.huf"
-// "-d" "../test_files/rand/rand.huf" "../test_files/rand/rand.txt"
+// "-d" "../test_files/rand/rand.huf" "../test_files/rand/randret.txt"

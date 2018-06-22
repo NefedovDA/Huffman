@@ -52,4 +52,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/huf_lib.dir/DependInfo.cmake"
   "CMakeFiles/huf_utility.dir/DependInfo.cmake"
+  "CMakeFiles/huf_test.dir/DependInfo.cmake"
   )

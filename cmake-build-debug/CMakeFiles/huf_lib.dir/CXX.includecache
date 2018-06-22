@@ -6,63 +6,75 @@
 
 #IncludeRegexTransform: 
 
-D:/programmes/c++/Sorokin/Haffman/lib/accumulator.cpp
+D:/programmes/c++/Sorokin/Huffman/lib/accumulator.cpp
 cstring
 -
 cassert
 -
 headers/accumulator.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 
-D:/programmes/c++/Sorokin/Haffman/lib/codes.cpp
+D:/programmes/c++/Sorokin/Huffman/lib/bit_code.cpp
+cassert
+-
+headers/bit_code.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/bit_code.h
+
+D:/programmes/c++/Sorokin/Huffman/lib/codes.cpp
 headers/codes.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/codes.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/codes.h
 
-D:/programmes/c++/Sorokin/Haffman/lib/compress.cpp
+D:/programmes/c++/Sorokin/Huffman/lib/compress.cpp
 headers/compress.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/compress.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/compress.h
 
-D:/programmes/c++/Sorokin/Haffman/lib/decompress.cpp
+D:/programmes/c++/Sorokin/Huffman/lib/decompress.cpp
 headers/decompress.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/decompress.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/decompress.h
 
-D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 vector
 -
 huf_types.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/huf_types.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h
 
-D:/programmes/c++/Sorokin/Haffman/lib/headers/codes.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/bit_code.h
 huf_types.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/huf_types.h
-tree.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/tree.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h
 
-D:/programmes/c++/Sorokin/Haffman/lib/headers/compress.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/codes.h
+huf_types.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h
+tree.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/tree.h
+bit_code.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/bit_code.h
+
+D:/programmes/c++/Sorokin/Huffman/lib/headers/compress.h
 accumulator.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 codes.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/codes.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/codes.h
 
-D:/programmes/c++/Sorokin/Haffman/lib/headers/decompress.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/decompress.h
 accumulator.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 tree.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/tree.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/tree.h
 
-D:/programmes/c++/Sorokin/Haffman/lib/headers/huf_types.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h
 cstdint
 -
 
-D:/programmes/c++/Sorokin/Haffman/lib/headers/tree.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/tree.h
 accumulator.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/accumulator.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 
-D:/programmes/c++/Sorokin/Haffman/lib/tree.cpp
+D:/programmes/c++/Sorokin/Huffman/lib/tree.cpp
 algorithm
 -
 stdexcept
 -
 headers/tree.h
-D:/programmes/c++/Sorokin/Haffman/lib/headers/tree.h
+D:/programmes/c++/Sorokin/Huffman/lib/headers/tree.h
 

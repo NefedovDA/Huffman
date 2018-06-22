@@ -2,11 +2,12 @@
 // Created by nefed on 20.06.2018.
 //
 
+
 #include "header/file_compress.h"
 #include "header/file_reader.h"
 #include "header/file_writer.h"
-#include "../lib/headers/accumulator.h"
-#include "../lib/headers/compress.h"
+#include "lib/headers/accumulator.h"
+#include "lib/headers/compress.h"
 
 void file_compress(const char *in_file, const char *out_file) {
     file_reader src(in_file);
@@ -23,6 +24,7 @@ void file_compress(const char *in_file, const char *out_file) {
 
     dst.write_table(a);
     dst.write_size(a.get_size());
+
     while (!src.eof()) {
         dst.write_bit_block(compressor(src.read_symbol_block()));
     }

@@ -18,7 +18,7 @@ struct accumulator {
 
     uint64_t get_count(symbol s) const;
 
-    uint64_t get_size();
+    uint64_t get_size() const;
 
 private:
     uint64_t count_table[MAX_SYMBOL + 1];

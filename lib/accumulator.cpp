@@ -32,6 +32,6 @@ void accumulator::init(std::vector<uint64_t> const &table) {
     size += table[MAX_SYMBOL];
 }
 
-uint64_t accumulator::get_size() {
+uint64_t accumulator::get_size() const {
     return size;
 }

@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\programmes\c++\Sorokin\Haffman
+CMAKE_SOURCE_DIR = D:\programmes\c++\Sorokin\Huffman
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\programmes\c++\Sorokin\Haffman\cmake-build-release
+CMAKE_BINARY_DIR = D:\programmes\c++\Sorokin\Huffman\cmake-build-release
 
 # Include any dependencies generated for this target.
 include CMakeFiles/huf_utility.dir/depend.make
@@ -57,17 +57,18 @@ include CMakeFiles/huf_utility.dir/progress.make
 include CMakeFiles/huf_utility.dir/flags.make
 
 CMakeFiles/huf_utility.dir/utility/file_reader.cpp.obj: CMakeFiles/huf_utility.dir/flags.make
+CMakeFiles/huf_utility.dir/utility/file_reader.cpp.obj: CMakeFiles/huf_utility.dir/includes_CXX.rsp
 CMakeFiles/huf_utility.dir/utility/file_reader.cpp.obj: ../utility/file_reader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\programmes\c++\Sorokin\Haffman\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/huf_utility.dir/utility/file_reader.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huf_utility.dir\utility\file_reader.cpp.obj -c D:\programmes\c++\Sorokin\Haffman\utility\file_reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\programmes\c++\Sorokin\Huffman\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/huf_utility.dir/utility/file_reader.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huf_utility.dir\utility\file_reader.cpp.obj -c D:\programmes\c++\Sorokin\Huffman\utility\file_reader.cpp
 
 CMakeFiles/huf_utility.dir/utility/file_reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huf_utility.dir/utility/file_reader.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\programmes\c++\Sorokin\Haffman\utility\file_reader.cpp > CMakeFiles\huf_utility.dir\utility\file_reader.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\programmes\c++\Sorokin\Huffman\utility\file_reader.cpp > CMakeFiles\huf_utility.dir\utility\file_reader.cpp.i
 
 CMakeFiles/huf_utility.dir/utility/file_reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huf_utility.dir/utility/file_reader.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\programmes\c++\Sorokin\Haffman\utility\file_reader.cpp -o CMakeFiles\huf_utility.dir\utility\file_reader.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\programmes\c++\Sorokin\Huffman\utility\file_reader.cpp -o CMakeFiles\huf_utility.dir\utility\file_reader.cpp.s
 
 CMakeFiles/huf_utility.dir/utility/file_reader.cpp.obj.requires:
 
@@ -81,17 +82,18 @@ CMakeFiles/huf_utility.dir/utility/file_reader.cpp.obj.provides.build: CMakeFile
 
 
 CMakeFiles/huf_utility.dir/utility/file_writer.cpp.obj: CMakeFiles/huf_utility.dir/flags.make
+CMakeFiles/huf_utility.dir/utility/file_writer.cpp.obj: CMakeFiles/huf_utility.dir/includes_CXX.rsp
 CMakeFiles/huf_utility.dir/utility/file_writer.cpp.obj: ../utility/file_writer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\programmes\c++\Sorokin\Haffman\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/huf_utility.dir/utility/file_writer.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huf_utility.dir\utility\file_writer.cpp.obj -c D:\programmes\c++\Sorokin\Haffman\utility\file_writer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\programmes\c++\Sorokin\Huffman\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/huf_utility.dir/utility/file_writer.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huf_utility.dir\utility\file_writer.cpp.obj -c D:\programmes\c++\Sorokin\Huffman\utility\file_writer.cpp
 
 CMakeFiles/huf_utility.dir/utility/file_writer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huf_utility.dir/utility/file_writer.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\programmes\c++\Sorokin\Haffman\utility\file_writer.cpp > CMakeFiles\huf_utility.dir\utility\file_writer.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\programmes\c++\Sorokin\Huffman\utility\file_writer.cpp > CMakeFiles\huf_utility.dir\utility\file_writer.cpp.i
 
 CMakeFiles/huf_utility.dir/utility/file_writer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huf_utility.dir/utility/file_writer.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\programmes\c++\Sorokin\Haffman\utility\file_writer.cpp -o CMakeFiles\huf_utility.dir\utility\file_writer.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\programmes\c++\Sorokin\Huffman\utility\file_writer.cpp -o CMakeFiles\huf_utility.dir\utility\file_writer.cpp.s
 
 CMakeFiles/huf_utility.dir/utility/file_writer.cpp.obj.requires:
 
@@ -105,17 +107,18 @@ CMakeFiles/huf_utility.dir/utility/file_writer.cpp.obj.provides.build: CMakeFile
 
 
 CMakeFiles/huf_utility.dir/utility/file_compress.cpp.obj: CMakeFiles/huf_utility.dir/flags.make
+CMakeFiles/huf_utility.dir/utility/file_compress.cpp.obj: CMakeFiles/huf_utility.dir/includes_CXX.rsp
 CMakeFiles/huf_utility.dir/utility/file_compress.cpp.obj: ../utility/file_compress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\programmes\c++\Sorokin\Haffman\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/huf_utility.dir/utility/file_compress.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huf_utility.dir\utility\file_compress.cpp.obj -c D:\programmes\c++\Sorokin\Haffman\utility\file_compress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\programmes\c++\Sorokin\Huffman\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/huf_utility.dir/utility/file_compress.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huf_utility.dir\utility\file_compress.cpp.obj -c D:\programmes\c++\Sorokin\Huffman\utility\file_compress.cpp
 
 CMakeFiles/huf_utility.dir/utility/file_compress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huf_utility.dir/utility/file_compress.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\programmes\c++\Sorokin\Haffman\utility\file_compress.cpp > CMakeFiles\huf_utility.dir\utility\file_compress.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\programmes\c++\Sorokin\Huffman\utility\file_compress.cpp > CMakeFiles\huf_utility.dir\utility\file_compress.cpp.i
 
 CMakeFiles/huf_utility.dir/utility/file_compress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huf_utility.dir/utility/file_compress.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\programmes\c++\Sorokin\Haffman\utility\file_compress.cpp -o CMakeFiles\huf_utility.dir\utility\file_compress.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\programmes\c++\Sorokin\Huffman\utility\file_compress.cpp -o CMakeFiles\huf_utility.dir\utility\file_compress.cpp.s
 
 CMakeFiles/huf_utility.dir/utility/file_compress.cpp.obj.requires:
 
@@ -129,17 +132,18 @@ CMakeFiles/huf_utility.dir/utility/file_compress.cpp.obj.provides.build: CMakeFi
 
 
 CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.obj: CMakeFiles/huf_utility.dir/flags.make
+CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.obj: CMakeFiles/huf_utility.dir/includes_CXX.rsp
 CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.obj: ../utility/file_decompress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\programmes\c++\Sorokin\Haffman\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huf_utility.dir\utility\file_decompress.cpp.obj -c D:\programmes\c++\Sorokin\Haffman\utility\file_decompress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\programmes\c++\Sorokin\Huffman\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huf_utility.dir\utility\file_decompress.cpp.obj -c D:\programmes\c++\Sorokin\Huffman\utility\file_decompress.cpp
 
 CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\programmes\c++\Sorokin\Haffman\utility\file_decompress.cpp > CMakeFiles\huf_utility.dir\utility\file_decompress.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\programmes\c++\Sorokin\Huffman\utility\file_decompress.cpp > CMakeFiles\huf_utility.dir\utility\file_decompress.cpp.i
 
 CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\programmes\c++\Sorokin\Haffman\utility\file_decompress.cpp -o CMakeFiles\huf_utility.dir\utility\file_decompress.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\programmes\c++\Sorokin\Huffman\utility\file_decompress.cpp -o CMakeFiles\huf_utility.dir\utility\file_decompress.cpp.s
 
 CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.obj.requires:
 
@@ -153,17 +157,18 @@ CMakeFiles/huf_utility.dir/utility/file_decompress.cpp.obj.provides.build: CMake
 
 
 CMakeFiles/huf_utility.dir/utility/main.cpp.obj: CMakeFiles/huf_utility.dir/flags.make
+CMakeFiles/huf_utility.dir/utility/main.cpp.obj: CMakeFiles/huf_utility.dir/includes_CXX.rsp
 CMakeFiles/huf_utility.dir/utility/main.cpp.obj: ../utility/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\programmes\c++\Sorokin\Haffman\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/huf_utility.dir/utility/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huf_utility.dir\utility\main.cpp.obj -c D:\programmes\c++\Sorokin\Haffman\utility\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\programmes\c++\Sorokin\Huffman\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/huf_utility.dir/utility/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\huf_utility.dir\utility\main.cpp.obj -c D:\programmes\c++\Sorokin\Huffman\utility\main.cpp
 
 CMakeFiles/huf_utility.dir/utility/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huf_utility.dir/utility/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\programmes\c++\Sorokin\Haffman\utility\main.cpp > CMakeFiles\huf_utility.dir\utility\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\programmes\c++\Sorokin\Huffman\utility\main.cpp > CMakeFiles\huf_utility.dir\utility\main.cpp.i
 
 CMakeFiles/huf_utility.dir/utility/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huf_utility.dir/utility/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\programmes\c++\Sorokin\Haffman\utility\main.cpp -o CMakeFiles\huf_utility.dir\utility\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\programmes\c++\Sorokin\Huffman\utility\main.cpp -o CMakeFiles\huf_utility.dir\utility\main.cpp.s
 
 CMakeFiles/huf_utility.dir/utility/main.cpp.obj.requires:
 
@@ -197,7 +202,7 @@ huf_utility.exe: libhuf_lib.a
 huf_utility.exe: CMakeFiles/huf_utility.dir/linklibs.rsp
 huf_utility.exe: CMakeFiles/huf_utility.dir/objects1.rsp
 huf_utility.exe: CMakeFiles/huf_utility.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\programmes\c++\Sorokin\Haffman\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable huf_utility.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\programmes\c++\Sorokin\Huffman\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable huf_utility.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\huf_utility.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -218,6 +223,6 @@ CMakeFiles/huf_utility.dir/clean:
 .PHONY : CMakeFiles/huf_utility.dir/clean
 
 CMakeFiles/huf_utility.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\programmes\c++\Sorokin\Haffman D:\programmes\c++\Sorokin\Haffman D:\programmes\c++\Sorokin\Haffman\cmake-build-release D:\programmes\c++\Sorokin\Haffman\cmake-build-release D:\programmes\c++\Sorokin\Haffman\cmake-build-release\CMakeFiles\huf_utility.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\programmes\c++\Sorokin\Huffman D:\programmes\c++\Sorokin\Huffman D:\programmes\c++\Sorokin\Huffman\cmake-build-release D:\programmes\c++\Sorokin\Huffman\cmake-build-release D:\programmes\c++\Sorokin\Huffman\cmake-build-release\CMakeFiles\huf_utility.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/huf_utility.dir/depend
 

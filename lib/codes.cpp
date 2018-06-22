@@ -7,32 +7,32 @@
 codes::codes(tree const &t) {
     if (t.head != nullptr) {
         if (t.head->is_leaf) {
-            code_words_table[t.head->my_symbol].push_back(0);
+            code_words_table[t.head->my_symbol].push(0);
         } else {
-            std::vector<bit_t> v;
+            bit_code v;
             dfs(t.head, v);
         }
     }
 }
 
-std::vector<bit_t> codes::get(symbol s)const {
+bit_code codes::get(symbol s)const {
     // если символ не встречался, то его код длины 0
     return code_words_table[s];
 }
 
-void codes::dfs(tree::node *node, std::vector<bit_t> &cur_code) {
+void codes::dfs(tree::node *node, bit_code &cur_code) {
     if (node->is_leaf) {
         code_words_table[node->my_symbol] = cur_code;
     } else {
-        cur_code.push_back(0);
+        cur_code.push(0);
         dfs(node->left, cur_code);
-        cur_code.pop_back();
-        cur_code.push_back(1);
+        cur_code.pop();
+        cur_code.push(1);
         dfs(node->right, cur_code);
-        cur_code.pop_back();
+        cur_code.pop();
     }
 }
 
 size_t codes::get_length(symbol s) const {
-    return code_words_table[s].size();
+    return code_words_table[s].length;
 }

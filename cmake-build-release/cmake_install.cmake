@@ -1,4 +1,4 @@
-# Install script for directory: D:/programmes/c++/Sorokin/Haffman
+# Install script for directory: D:/programmes/c++/Sorokin/Huffman
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/programmes/c++/Sorokin/Haffman/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/programmes/c++/Sorokin/Huffman/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

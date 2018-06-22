@@ -5,22 +5,22 @@
 #ifndef HUFFMAN_LIBRARY_CODES_H
 #define HUFFMAN_LIBRARY_CODES_H
 
-#include "huf_types.h"
 #include "tree.h"
+#include "bit_code.h"
 
 struct codes {
     codes() = delete;
 
     explicit codes(tree const &t);
 
-    std::vector<bit_t> get(symbol s)const;
+    bit_code get(symbol s)const;
 
     size_t get_length(symbol s) const;
 
 private:
-    std::vector<bit_t> code_words_table[MAX_SYMBOL + 1];
+    bit_code code_words_table[MAX_SYMBOL + 1];
 
-    void dfs(tree::node *node, std::vector<bit_t> &cur_code);
+    void dfs(tree::node *node, bit_code &cur_code);
 };
 
 #endif //HUFFMAN_LIBRARY_CODES_H

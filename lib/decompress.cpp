@@ -33,3 +33,7 @@ std::vector<symbol> decompress::operator()(std::vector<bit_t> const &block) {
 bool decompress::empty() {
     return cur == huf_tree.head;
 }
+
+bool decompress::is_end() {
+    return size == 0;
+}
