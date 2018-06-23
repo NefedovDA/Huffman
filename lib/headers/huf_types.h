@@ -6,6 +6,7 @@
 #define HUFFMAN_LIBRARY_HAF_TYPES_H
 
 #include <cstdint>
+#include <cstdio>
 
 typedef uint8_t symbol;
 typedef uint8_t bit_t;

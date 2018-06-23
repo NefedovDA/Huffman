@@ -61,6 +61,8 @@ D:/programmes/c++/Sorokin/Huffman/lib/headers/tree.h
 D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h
 cstdint
 -
+cstdio
+-
 
 D:/programmes/c++/Sorokin/Huffman/lib/headers/tree.h
 accumulator.h
