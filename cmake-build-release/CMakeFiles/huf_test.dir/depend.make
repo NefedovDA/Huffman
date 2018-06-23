@@ -9,7 +9,13 @@ CMakeFiles/huf_test.dir/gtest/gtest_main.cc.obj: ../gtest/gtest_main.cc
 
 CMakeFiles/huf_test.dir/test/tests.cpp.obj: ../gtest/gtest.h
 CMakeFiles/huf_test.dir/test/tests.cpp.obj: ../lib/headers/accumulator.h
+CMakeFiles/huf_test.dir/test/tests.cpp.obj: ../lib/headers/bit_code.h
+CMakeFiles/huf_test.dir/test/tests.cpp.obj: ../lib/headers/codes.h
+CMakeFiles/huf_test.dir/test/tests.cpp.obj: ../utility/header/file_decompress.h
+CMakeFiles/huf_test.dir/test/tests.cpp.obj: ../lib/headers/accumulator.h
+CMakeFiles/huf_test.dir/test/tests.cpp.obj: ../lib/headers/bit_code.h
 CMakeFiles/huf_test.dir/test/tests.cpp.obj: ../lib/headers/huf_types.h
+CMakeFiles/huf_test.dir/test/tests.cpp.obj: ../lib/headers/tree.h
 CMakeFiles/huf_test.dir/test/tests.cpp.obj: ../test/tests.cpp
 CMakeFiles/huf_test.dir/test/tests.cpp.obj: ../utility/header/file_compress.h
 

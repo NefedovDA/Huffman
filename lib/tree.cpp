@@ -21,6 +21,8 @@ tree::tree(accumulator const &a) {
     }
     if (v.empty()) {
         head = nullptr;
+    } else if (v.size() == 1) {
+        head = new node(v[0], new node(v[0]->my_symbol, v[0]->count));
     } else {
         while (v.size() != 1) {
             std::sort(v.begin(), v.end(), node_comp);
@@ -56,5 +58,7 @@ void tree::dfs_del(tree::node *n) {
 }
 
 tree::~tree() {
-    dfs_del(head);
+    if (head != nullptr) {
+        dfs_del(head);
+    }
 }

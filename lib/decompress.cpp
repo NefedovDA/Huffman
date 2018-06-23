@@ -11,6 +11,7 @@ decompress::decompress(accumulator const &a, uint64_t size) :
 
 std::vector<symbol> decompress::operator()(std::vector<bit_t> const &block) {
     std::vector<symbol> buf;
+    buf.reserve(block.size());
     for (auto b : block) {
         if (b) {
             cur = cur->right;

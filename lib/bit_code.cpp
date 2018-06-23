@@ -18,6 +18,10 @@ void bit_code::pop() {
     assert(length != 0);
     flip <<= 1;
     --length;
-    code >>= (64 - length);
-    code <<= (64 - length);
+    if (length != 0) {
+        code >>= (64 - length);
+        code <<= (64 - length);
+    } else {
+        code = 0;
+    }
 }

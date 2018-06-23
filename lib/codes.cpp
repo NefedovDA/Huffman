@@ -6,16 +6,12 @@
 
 codes::codes(tree const &t) {
     if (t.head != nullptr) {
-        if (t.head->is_leaf) {
-            code_words_table[t.head->my_symbol].push(0);
-        } else {
-            bit_code v;
-            dfs(t.head, v);
-        }
+        bit_code v;
+        dfs(t.head, v);
     }
 }
 
-bit_code codes::get(symbol s)const {
+bit_code codes::get(symbol s) const {
     // если символ не встречался, то его код длины 0
     return code_words_table[s];
 }

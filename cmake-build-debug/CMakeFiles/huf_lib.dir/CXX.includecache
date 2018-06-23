@@ -43,8 +43,6 @@ huf_types.h
 D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h
 
 D:/programmes/c++/Sorokin/Huffman/lib/headers/codes.h
-huf_types.h
-D:/programmes/c++/Sorokin/Huffman/lib/headers/huf_types.h
 tree.h
 D:/programmes/c++/Sorokin/Huffman/lib/headers/tree.h
 bit_code.h
@@ -57,8 +55,6 @@ codes.h
 D:/programmes/c++/Sorokin/Huffman/lib/headers/codes.h
 
 D:/programmes/c++/Sorokin/Huffman/lib/headers/decompress.h
-accumulator.h
-D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 tree.h
 D:/programmes/c++/Sorokin/Huffman/lib/headers/tree.h
 
@@ -72,8 +68,6 @@ D:/programmes/c++/Sorokin/Huffman/lib/headers/accumulator.h
 
 D:/programmes/c++/Sorokin/Huffman/lib/tree.cpp
 algorithm
--
-stdexcept
 -
 headers/tree.h
 D:/programmes/c++/Sorokin/Huffman/lib/headers/tree.h
