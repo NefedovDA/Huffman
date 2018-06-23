@@ -76,7 +76,9 @@ void file_reader::restart() {
 }
 
 file_reader::~file_reader() {
-    fclose(my_file);
+    if (my_file != nullptr) {
+        fclose(my_file);
+    }
 }
 
 uint64_t file_reader::read_in_size() {

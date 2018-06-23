@@ -103,7 +103,9 @@ void file_writer::flush_bit() {
 }
 
 file_writer::~file_writer() {
-    fclose(my_file);
+    if (my_file != nullptr) {
+        fclose(my_file);
+    }
 }
 
 void file_writer::write_size(uint64_t size) {

@@ -15,40 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6461c1b-a081-4955-a0cf-70ca2539389d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test_files/4/4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/accumulator.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/accumulator.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/bit_code.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/bit_code.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/codes.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/codes.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/compress.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/compress.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/decompress.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/decompress.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/tree.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_lib.dir/lib/tree.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/huf_test.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libhuf_lib.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libhuf_lib.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_lib.dir/lib/bit_code.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_lib.dir/lib/bit_code.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_lib.dir/lib/codes.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_lib.dir/lib/codes.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_lib.dir/lib/decompress.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_lib.dir/lib/decompress.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_lib.dir/lib/tree.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_lib.dir/lib/tree.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_test.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_test.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_test.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_test.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_test.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_test.dir/test/tests.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_test.dir/test/tests.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_utility.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/huf_utility.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/huf_test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/huf_test.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/huf_utility.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/huf_utility.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/libhuf_lib.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/libhuf_lib.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bit_code.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bit_code.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/codes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/codes.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/decompress.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/decompress.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/1/1.huf" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/0/0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/1/1ret.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/rand/rand.huf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/rand/rand.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/rand/rand.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/rand/randret.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utility/file_reader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/utility/file_reader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utility/file_writer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/utility/file_writer.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -122,13 +90,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tree.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tree.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/tree.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+            <state relative-caret-position="646">
+              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
               <folding>
                 <element signature="e#42#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_reader.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utility/file_reader.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+              <folding>
+                <element signature="e#42#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_writer.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utility/file_writer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
+              <folding>
+                <element signature="e#42#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,8 +194,6 @@
         <option value="$PROJECT_DIR$/lib/headers/codes.h" />
         <option value="$PROJECT_DIR$/lib/headers/compress.h" />
         <option value="$PROJECT_DIR$/lib/headers/decompress.h" />
-        <option value="$PROJECT_DIR$/utility/file_reader.cpp" />
-        <option value="$PROJECT_DIR$/utility/file_writer.cpp" />
         <option value="$PROJECT_DIR$/utility/file_compress.cpp" />
         <option value="$PROJECT_DIR$/utility/header/file_reader.h" />
         <option value="$PROJECT_DIR$/utility/header/file_writer.h" />
@@ -218,6 +208,8 @@
         <option value="$PROJECT_DIR$/test/tests.cpp" />
         <option value="$PROJECT_DIR$/lib/tree.cpp" />
         <option value="$PROJECT_DIR$/lib/codes.cpp" />
+        <option value="$PROJECT_DIR$/utility/file_reader.cpp" />
+        <option value="$PROJECT_DIR$/utility/file_writer.cpp" />
       </list>
     </option>
   </component>
@@ -252,7 +244,7 @@
             <path>
               <item name="Huffman" type="b2602c69:ProjectViewProjectNode" />
               <item name="Huffman" type="462c0819:PsiDirectoryNode" />
-              <item name="test_files" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,7 +329,7 @@
       <workItem from="1529531596964" duration="3959000" />
       <workItem from="1529535925621" duration="18874000" />
       <workItem from="1529625037720" duration="29758000" />
-      <workItem from="1529754443800" duration="9832000" />
+      <workItem from="1529754443800" duration="10991000" />
     </task>
     <servers />
   </component>
@@ -374,20 +366,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114126000" />
+    <option name="totallyTimeSpent" value="115285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24088542" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24088542" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.4837873" />
       <window_info anchor="bottom" id="CMake" order="4" weight="0.3294423" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3294423" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.47859922" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.47859922" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -647,26 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utility/file_reader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#42#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utility/file_writer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="e#42#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-511">
@@ -785,10 +757,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tree.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+        <state relative-caret-position="646">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
           <folding>
             <element signature="e#42#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/file_reader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+          <folding>
+            <element signature="e#42#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/file_writer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
+          <folding>
+            <element signature="e#42#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
